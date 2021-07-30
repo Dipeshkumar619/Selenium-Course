@@ -12,7 +12,7 @@ public class FirstTest {
     @Test
     public void OpenBrowser()  {
         WebDriver driver;
-        System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Dipesh\\OneDrive\\Desktop\\DevOps\\chromedriver_win32\\chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("headless");
         options.addArguments("disable-gpu");
